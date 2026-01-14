@@ -34,67 +34,100 @@
             border: 2px solid #667eea;
             padding: 20px;
             border-radius: 10px;
+            transition: transform 0.2s;
+        }
+        .app-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
         }
         .app-card h3 {
             color: #667eea;
+            margin-top: 0;
+        }
+        .live-badge {
+            background: #10b981;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 0.8em;
+            font-weight: bold;
         }
         a {
             color: #667eea;
             text-decoration: none;
+            font-weight: bold;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .section-title {
+            color: #2c3e50;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+            margin-top: 40px;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Gerald's Professional Portfolio</h1>
-        <p style="text-align:center; font-size:1.2em;">Web Developer | Problem Solver | 7 Complete Applications</p>
-        
-        <h2>Deployed Applications</h2>
+        <p style="text-align:center; font-size:1.2em;">Web Developer | Problem Solver | Aviation Industry IT Background</p>
+        <p style="text-align:center; color: #10b981; font-weight: bold;">✓ 7 Complete Applications Deployed</p>
+
+        <h2 class="section-title">🚀 Featured Applications (Live on Netlify)</h2>
         <div class="apps-grid">
             <div class="app-card">
-                <h3>Enhanced Counter App</h3>
-                <p>React-based counter with state management</p>
+                <h3>Enhanced Counter App <span class="live-badge">LIVE</span></h3>
+                <p>React-based counter with state management and increment controls</p>
                 <a href="https://cheery-entremet-77a201.netlify.app" target="_blank">View Live →</a>
             </div>
             <div class="app-card">
-                <h3>Dice Roller</h3>
-                <p>Interactive dice with statistics tracking</p>
+                <h3>Dice Roller <span class="live-badge">LIVE</span></h3>
+                <p>Interactive dice roller with statistics tracking and history</p>
                 <a href="https://lovely-cuchufli-a3531e.netlify.app" target="_blank">View Live →</a>
             </div>
             <div class="app-card">
-                <h3>Lottery Bandit PWA</h3>
-                <p>Casino-themed number generator with algorithms</p>
+                <h3>Lottery Bandit PWA <span class="live-badge">LIVE</span></h3>
+                <p>Casino-themed lottery number generator with hot number algorithms</p>
                 <a href="https://fluffy-cheesecake-d5e6c1.netlify.app" target="_blank">View Live →</a>
             </div>
         </div>
 
-        <h2>Latest Projects</h2>
+        <h2 class="section-title">💼 Professional Web Applications</h2>
         <div class="apps-grid">
             <div class="app-card">
+                <h3>Recruiter Tracker <span class="live-badge">NEW!</span></h3>
+                <p>Complete job application management system with status tracking and notes</p>
+                <a href="https://mohican76-recruiter-tracker.netlify.app" target="_blank">View Live →</a>
+            </div>
+            <div class="app-card">
                 <h3>Typing Speed Test</h3>
-                <p>Professional WPM tracker with accuracy metrics</p>
+                <p>Professional WPM tracker with accuracy metrics and real-time feedback</p>
                 <a href="typing-speed-app.html">View App →</a>
             </div>
             <div class="app-card">
                 <h3>Finance Tracker</h3>
-                <p>Budget management with local storage</p>
+                <p>Personal budget management with income/expense tracking and local storage</p>
                 <a href="finance-tracker-app.html">View App →</a>
             </div>
             <div class="app-card">
-                <h3>Recruiter Tracker</h3>
-                <p>Job application management system</p>
-                <a href="recruiter-tracker-app.html">View App →</a>
-            </div>
-            <div class="app-card">
                 <h3>Train Tracker</h3>
-                <p>Amtrak-style schedule tracker</p>
+                <p>Amtrak-style schedule tracker with real-time arrival/departure updates</p>
                 <a href="train-tracker-app.html">View App →</a>
             </div>
         </div>
 
-        <h2>Professional Documents</h2>
-        <p><a href="resume.html">View Resume</a> | <a href="cover-letter.html">View Cover Letter</a></p>
-        <p><a href="https://github.com/Mohican76">GitHub Profile</a></p>
+        <h2 class="section-title">📄 Professional Documents</h2>
+        <p style="font-size: 1.1em;">
+            <a href="resume.html">📋 View Resume</a> | 
+            <a href="cover-letter.html">✉️ View Cover Letter</a> | 
+            <a href="https://github.com/Mohican76" target="_blank">💻 GitHub Profile</a>
+        </p>
+
+        <div style="margin-top: 40px; padding: 20px; background: #f8f9fa; border-radius: 10px; text-align: center;">
+            <h3>About This Portfolio</h3>
+            <p>This portfolio showcases 7 complete web applications built with modern technologies including React, Progressive Web Apps, and responsive design principles. All applications feature clean code, user-friendly interfaces, and practical functionality.</p>
+        </div>
     </div>
 </body>
 </html>
