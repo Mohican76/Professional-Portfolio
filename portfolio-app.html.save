@@ -1,0 +1,3 @@
+cd ~/professional-portfolio
+wget -O portfolio-app.html https://claude.site/artifacts/[LINK]
+
