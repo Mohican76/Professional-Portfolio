@@ -1,19 +1,24 @@
-Job Application Tracker / Recruiter Tracker
+# Professional Portfolio & Systems Engineering
 
-Developed a responsive, user-focused web utility with HTML, CSS, and Vanilla JavaScript to help job seekers log target roles, track application statuses, and manage follow-ups.
+Welcome to my portfolio repository. This space highlights my technical projects, system tools, and professional documentation focusing on software development, full-stack applications, Linux automation, and structural engineering mechanics.
 
-Implemented localStorage persistence and JSON data export functionality for client-side data management without external database dependencies.
+---
 
-Designed a dynamic CSS grid layout with media queries to ensure full responsiveness across mobile, tablet, and desktop environments.
+## 🚀 Featured Applications & Projects
+* **[Finance Tracker App](finance-tracker-app.html)** - Personal finance and budget management tool.
+* **[Recruiter Interaction Tracker](recruiter-tracker-app.html)** - Application designed to log and manage job application pipelines and recruiter touchpoints.
+* **[Train Tracker App](train-tracker-app.html)** - Transit and scheduling coordination tool.
+* **[Typing Speed & Accuracy Trainer](typing-speed-app.html)** - Interactive web application designed to measure and improve typing throughput and precision.
 
-Under Technical Skills
-Under your App Specialties or Concepts sections, you can list:
+---
 
-App Types: Tracking Systems, Productivity Utilities, Data Persistence Apps
+## 📄 Professional Documents
+* **[Master Resume (Markdown)](resume.md)** / **[HTML Version](resume.html)**
+* **[Cover Letter (Markdown)](cover-letter.md)** / **[HTML Version](cover-letter.html)**
 
-Cover Letter / Summary Bullet Points:
-When reaching out to recruiters or writing custom cover letters, you can use this project as a real-world example of your developer ethos:
+---
 
-"In addition to building interactive tools and simulators, I recently developed and deployed a dedicated Job Application Tracker to streamline application workflows, demonstrate clean Vanilla JS state management, and provide reliable local data persistence."
-
-"Every application I ship—from productivity tools like my Job Application Tracker to interactive learning platforms—is designed to solve a practical problem, save time, and deliver a clean user experience."
+## 💻 Tech Stack & Environment
+* **Languages & Scripting:** Python, JavaScript, HTML5, CSS3, Bash
+* **Frameworks & Tools:** React, Vite, Git/GitHub, Podman, QEMU/KVM
+* **Environment:** ChromeOS (Linux Crostini container), VS Code, Termux
